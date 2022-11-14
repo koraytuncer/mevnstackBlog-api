@@ -1,0 +1,38 @@
+{
+  "name": "k91-blog",
+  "version": "1.0.0",
+  "description": "K91 - Kişisel Blog",
+  "main": "index.js",
+  "engines":{
+    "node":"14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blog",
+    "k91",
+    "kişisel"
+  ],
+  "type": "module",
+  "author": "Koray TUNCER",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "slugify": "^1.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koraytuncer/mevnstackBlog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koraytuncer/mevnstackBlog/issues"
+  },
+  "homepage": "https://github.com/koraytuncer/mevnstackBlog#readme"
+}
